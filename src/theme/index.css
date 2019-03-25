@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--base-font-family);
+  font-size: var(--base-font-size);
+  line-height: var(--base-line-height);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--heading-font-famiy);
+  line-height: var(--heading-line-height);
+  font-weight: var(--heading-font-weight);
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.page-width {
+  margin: auto;
+  max-width: var(--page-max-width);
+  width: 95%;
+}

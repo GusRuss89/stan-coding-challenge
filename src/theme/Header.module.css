@@ -1,0 +1,56 @@
+.root {
+  background: var(--brand-colour);
+  background: linear-gradient(to bottom, var(--brand-colour-gradient) 0%, var(--brand-colour) 100%);
+  padding: 8px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.inner {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.logo {
+  display: inline-block;
+  color: #fff;
+  font-weight: var(--heading-font-weight);
+  font-size: var(--logo-font-size);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  flex-grow: 1;
+  margin: 0;
+  margin-right: var(--gutter-width);
+}
+.nav {
+}
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.navList li {
+  margin-left: calc(var(--gutter-width) * 2);
+}
+.navList a {
+  color: #fff;
+}
+.navList a:hover {
+  text-decoration: none;
+}
+.navButton a {
+  display: inline-block;
+  padding: 8px 12px;
+  background: #343434;
+  background: linear-gradient(to bottom, #444 0%, #2a2a2a 200%);
+}
+.navButton a:hover {
+  background: #333;
+}
+@media (max-width: 580px) {
+  .logo {
+    font-size: 26px;
+  }
+  .navButton {
+    display: none;
+  }
+}

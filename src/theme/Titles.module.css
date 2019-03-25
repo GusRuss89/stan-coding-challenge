@@ -1,0 +1,8 @@
+.root {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(133px, 1fr));
+  grid-column-gap: var(--gutter-width);
+  grid-row-gap: 40px;
+}
+.title {
+}

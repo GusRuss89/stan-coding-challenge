@@ -1,0 +1,23 @@
+.root {
+  background: #414141;
+  padding: 12px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.inner {
+  display: flex;
+}
+.title {
+  color: #fff;
+  font-size: 22px;
+  margin: 0;
+  flex-grow: 1;
+}
+.back {
+  border: none;
+  padding: 0;
+  color: #fff;
+  background: transparent;
+  font-family: var(--base-font-family);
+  font-size: var(--base-font-size);
+  cursor: pointer;
+}

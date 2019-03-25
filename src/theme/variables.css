@@ -1,0 +1,16 @@
+:root {
+  /* Colour */
+  --brand-colour: #0166fc;
+  --brand-colour-gradient: #0097ff;
+  /* Type */
+  --base-font-family: 'Raleway', sans-serif;
+  --base-font-size: 16px;
+  --base-line-height: 1.4;
+  --heading-font-family: var(--base-font-family);
+  --heading-line-height: 1.2;
+  --heading-font-weight: 500;
+  --logo-font-size: 32px;
+  /* Layout */
+  --page-max-width: 1020px;
+  --gutter-width: 14px;
+}

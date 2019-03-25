@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App passes snapshot 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="header"
+  >
+    <header
+      className="root"
+    >
+      <div
+        className="page-width"
+      >
+        <div
+          className="inner"
+        >
+          <h1
+            className="logo"
+          >
+            DEMO Streaming
+          </h1>
+          <nav
+            className="nav"
+          >
+            <ul
+              className="navList"
+            >
+              <li>
+                <a
+                  href="#login"
+                >
+                  Log in
+                </a>
+              </li>
+              <li
+                className="navButton"
+              >
+                <a
+                  href="#trial"
+                >
+                  Start your free trial
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>
+  <main
+    className="main"
+  >
+    <header
+      className="root"
+    >
+      <div
+        className="page-width"
+      >
+        <div
+          className="inner"
+        >
+          <h1
+            className="title"
+          >
+            Popular Titles
+          </h1>
+        </div>
+      </div>
+    </header>
+    <div
+      className="content"
+    >
+      <div
+        className="page-width"
+      >
+        <div
+          className="contentInner"
+        >
+          <span
+            className="loading"
+            data-testid="loading"
+          >
+            Loading...
+          </span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div
+    className="footer"
+  >
+    <footer
+      className="root"
+    >
+      <div
+        className="page-width"
+      >
+        <div
+          className="inner"
+        >
+          <nav
+            className="nav"
+          >
+            <ul>
+              <li>
+                <a
+                  href="#home"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#terms"
+                >
+                  Terms and Conditions
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#privacy"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#collection"
+                >
+                  Collection Statement
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#help"
+                >
+                  Help
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#manage"
+                >
+                  Manage Account
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <p
+            className="copyright"
+          >
+            Copyright © 
+            2019
+             DEMO Streaming. All rights reserved.
+          </p>
+          <div
+            className="icons"
+          >
+            <ul
+              className="social"
+            >
+              <li>
+                <a
+                  href="https://facebook.com"
+                  rel="noreferrer noopener"
+                >
+                  <svg>
+                    facebook-white.svg
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com"
+                  rel="noreferrer noopener"
+                >
+                  <svg>
+                    twitter-white.svg
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://instagram.com"
+                  rel="noreferrer noopener"
+                >
+                  <svg>
+                    instagram-white.svg
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <ul
+              className="appStores"
+            >
+              <li>
+                <a
+                  href="https://apple.com"
+                  rel="noreferrer noopener"
+                >
+                  <svg>
+                    app-store.svg
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://google.com"
+                  rel="noreferrer noopener"
+                >
+                  <svg>
+                    play-store.svg
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  className="windowsStoreIcon"
+                  href="https://microsoft.com"
+                  rel="noreferrer noopener"
+                >
+                  <svg>
+                    windows-store.svg
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;
